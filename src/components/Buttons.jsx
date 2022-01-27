@@ -11,6 +11,10 @@ export const DefaultButton = styled.button`
   display: block;
   margin: 2em auto;
   font-weight: bold;
+  :hover {
+    background-color: darkslateblue;
+    transition: 0.2s ease-in;
+  }
 `;
 
 export const TransparentButton = styled(DefaultButton)`
@@ -19,8 +23,6 @@ export const TransparentButton = styled(DefaultButton)`
   border: 1px solid slateblue;
   padding: 8px 200px;
   :hover {
-    background-color: darkslateblue;
     color: white;
-    transition: 0.2s ease-in;
   }
 `;

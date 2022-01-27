@@ -18,4 +18,9 @@ export const TransparentButton = styled(DefaultButton)`
   color: slateblue;
   border: 1px solid slateblue;
   padding: 8px 200px;
+  :hover {
+    background-color: darkslateblue;
+    color: white;
+    transition: 0.2s ease-in;
+  }
 `;

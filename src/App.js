@@ -1,15 +1,13 @@
-import BasicTitle from './components/BasicTitle';
-import { DefaultButton, TransparentButton } from './components/Buttons';
+// import BasicTitle from './components/BasicTitle';
+// import { DefaultButton, TransparentButton } from './components/Buttons';
+import ComplexTitle from './components/ComplexTitle';
 
 // import styled from 'styled-components';
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <BasicTitle specialColor>styled component</BasicTitle>
-      <BasicTitle>styled component</BasicTitle>
-      <DefaultButton>click me</DefaultButton>
-      <TransparentButton>click me</TransparentButton>
+      <ComplexTitle title='more complex title' />
     </div>
   );
 }
